@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="form" id="formulario">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <p>Selecciona tu sexo:</p>
+    <input type="radio" id="hombre" value="Hombre" name="sexo"/>
+    <label for="hombre">Hombre</label>
+      
+    <input type="radio" id="mujer" value="Mujer" name="sexo"/>
+    <label for="mujer">Mujer</label><br><br>
+
+    <label>
+      <input type="checkbox" id="checkbox1" name="opcionCheckbox" value="Opcion 1"/>
+      Opcion 1 Checkbox
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" id="checkbox2" name="opcionCheckbox" value="Opcion 2"/>
+      Opcion 2 Checkbox
+    </label><br><br>
+
+    <p></p>
+    <select name="select" id="selectOpciones">
+      <option value="Opcion 1">Opción 1</option>
+      <option value="Opcion 2" selected>Opción 2</option>
+      <option value="Opcion 3">Opción 3</option>
+    </select><br><br>
+
+    <button type="submit" id="datos">Ver datos</button>
+  </form>
+  <script src="formulario.js"></script>
+</body>
+</html>
